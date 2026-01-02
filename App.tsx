@@ -1,18 +1,18 @@
 // @ts-nocheck
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './components/layout';
-import HomePage from './pages/homepage';
-import SportsPage from './pages/sportspage';
-import CasinoPage from './pages/casinopage';
-import LiveCasinoPage from './pages/livecasinopage';
-import MyBetsPage from './pages/mybetspage';
-import AdminPage from './pages/adminpage';
-import MenuPage from './pages/menupage';
-import GameLoader from './components/gameloader';
-import LiveSupport from './components/livesupport';
-import JoyfulCascades from './games/joyfulcascades';
-import ClassicSlots from './games/classicslots';
+import Layout from './components/Layout';
+import HomePage from './pages/HomePage';
+import SportsPage from './pages/SportsPage';
+import CasinoPage from './pages/CasinoPage';
+import LiveCasinoPage from './pages/LiveCasinoPage';
+import MyBetsPage from './pages/MyBetsPage';
+import AdminPage from './pages/AdminPage';
+import MenuPage from './pages/MenuPage';
+import GameLoader from './components/GameLoader';
+import LiveSupport from './components/LiveSupport';
+import JoyfulCascades from './games/JoyfulCascades';
+import ClassicSlots from './games/ClassicSlots';
 import { UserData } from './types.ts';
 import { auth, db } from './firebase.ts';
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
